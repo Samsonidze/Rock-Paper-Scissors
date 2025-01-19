@@ -10,10 +10,12 @@ body{
 h1{
     font-size: 3.4rem;
     color: hsl(0, 0%, 20%);
+    text-align: center;
 }
 
 .choices{
     margin-bottom: 30px;
+    display: flex;
 }
 
 .choices button{
@@ -50,4 +52,26 @@ h1{
 
 .redText, #computerScoreDisplay{
     color: red;
+}
+
+@media (max-width: 570px){
+    h1{
+        font-size: 2.4rem;
+        
+    }
+    .choices button{
+        font-size: 5.5rem;
+        min-width: 100px;
+        
+    }
+    #playerDisplay, #computerDisplay{
+        font-size: 2rem;
+    }
+    #resultDisplay{
+        font-size: 3.5rem;
+    }
+    
+    .scoreDisplay{
+        font-size: 1.5rem;
+    }
 }
