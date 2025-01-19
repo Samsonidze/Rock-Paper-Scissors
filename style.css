@@ -56,7 +56,7 @@ h1{
     color: red;
 }
 
-@media (max-width: 570px){
+@media (max-width: 470px){
     h1{
         font-size: 2rem;
         
