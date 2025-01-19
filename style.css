@@ -16,6 +16,8 @@ h1{
 .choices{
     margin-bottom: 30px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .choices button{
@@ -60,8 +62,8 @@ h1{
         
     }
     .choices button{
-        font-size: 5.5rem;
-        min-width: 100px;
+        font-size: 5rem;
+        min-width: 70px;
         
     }
     #playerDisplay, #computerDisplay{
